@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+#animal-photos{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow:column;
+	max-height:67vh;
+	max-height:67vh;
+}
+.grid{
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	justify-content:center;
+	align-items:center;
+}
